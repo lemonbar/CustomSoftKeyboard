@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard android:keyWidth="20%p"
+    android:keyHeight="55dp"
+    android:horizontalGap="0dp" android:verticalGap="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="100" android:keyEdgeFlags="left"
+            android:keyLabel="全仓" />
+        <Key android:codes="101" android:keyLabel="1" />
+        <Key android:codes="102" android:keyLabel="2" />
+        <Key android:codes="103" android:keyLabel="3" />
+        <Key android:codes="104" android:keyEdgeFlags="right"
+            android:keyIcon="@mipmap/keyboard_hidden" />
+    </Row>
+    <Row>
+        <Key android:codes="200" android:keyEdgeFlags="left"
+            android:keyLabel="半仓" />
+        <Key android:codes="201" android:keyLabel="4" />
+        <Key android:codes="202" android:keyLabel="5" />
+        <Key android:codes="203" android:keyLabel="6" />
+        <Key android:codes="204" android:keyEdgeFlags="right"
+            android:keyIcon="@mipmap/keyboard_del" />
+    </Row>
+    <Row>
+        <Key android:codes="300" android:keyEdgeFlags="left"
+            android:keyLabel="1/3仓" />
+        <Key android:codes="301" android:keyLabel="7" />
+        <Key android:codes="302" android:keyLabel="8" />
+        <Key android:codes="303" android:keyLabel="9" />
+        <Key android:codes="304" android:keyEdgeFlags="right"
+            android:isRepeatable="true"
+            android:keyHeight="110dp"
+            android:keyLabel="确定" />
+    </Row>
+    <Row>
+        <Key android:codes="400" android:keyEdgeFlags="left"
+            android:keyLabel="1/4仓" />
+        <Key android:codes="401" android:keyLabel="." />
+        <Key android:codes="402" android:keyLabel="0" />
+        <Key android:codes="403" android:keyLabel="000" />
+    </Row>
+</Keyboard>  

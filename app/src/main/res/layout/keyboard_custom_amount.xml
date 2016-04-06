@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#999999"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        style="@style/Keyboard_Column_Left"
+        android:layout_weight="6">
+
+        <TextView
+            style="@style/Keyboard_Key_Text"
+            android:text="全仓" />
+
+        <TextView
+            style="@style/Keyboard_Key_Text"
+            android:text="半仓" />
+
+        <TextView
+            style="@style/Keyboard_Key_Text"
+            android:text="1/3仓" />
+
+        <TextView
+            style="@style/Keyboard_Key_Text"
+            android:text="1/4仓" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Keyboard_Column_Middle"
+        android:layout_weight="8">
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="1" />
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="4" />
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="7" />
+
+        <TextView
+            style="@style/Keyboard_Key_Text_Light"
+            android:text="."
+            android:textSize="28dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Keyboard_Column_Middle"
+        android:layout_weight="9">
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="2" />
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="5" />
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="8" />
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="0" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Keyboard_Column_Middle"
+        android:layout_weight="8">
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="3" />
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="6" />
+
+        <TextView
+            style="@style/Keyboard_Key_Number"
+            android:text="9" />
+
+        <TextView
+            style="@style/Keyboard_Key_Text_Light"
+            android:text="000" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Keyboard_Column"
+        android:layout_weight="6">
+
+        <LinearLayout style="@style/Keyboard_Key_Image">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/keyboard_pushdown" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/Keyboard_Key_Image">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/keyboard_backspace" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Keyboard_Key_Yellow"
+            android:layout_height="109dp"
+            android:text="确认" />
+    </LinearLayout>
+</LinearLayout>
